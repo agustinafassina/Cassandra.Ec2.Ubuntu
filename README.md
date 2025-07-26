@@ -108,3 +108,5 @@ CREATE ROLE userReplace WITH PASSWORD='passwordReplace' AND LOGIN=true AND SUPER
 ### The installation is complete and Cassandra is ready to use 🚀
 <br>
 <img src="cassandra-logo.png" alt="Logo" width="700" height="450">
+<br>
+Medium article: https://medium.com/@agustinafassina_92108/install-cassandra-4-1-on-ubuntu-server-22-04-ec2-aws-15a4a730657e

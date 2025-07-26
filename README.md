@@ -1,4 +1,4 @@
-# Install Cassandra 4.1 on Ubuntu Server 22.04 EC2 AWS
+# Install Cassandra 4.1 on Ubuntu Server 22.04 EC2 AWS  🚀
 This repository contains the steps and code I used to install Apache Cassandra on an Ubuntu EC2 instance in AWS. The instructions include setting up the server, configuring Cassandra, and running the necessary commands.
 
 ## Requirenment 📃
@@ -13,8 +13,9 @@ This repository contains the steps and code I used to install Apache Cassandra o
 - Create user y password 👥
 - Add ip in the security groups 🔐
 
-1 - Connection type: SSH 🔌 <br>
+1 - Connection type: SSH 🔌 <br> 
 <img src="instance-connect.webp" alt="Logo" width="400" height="450">
+<br>
 2 - Install Cassandra 4.1 ⛏️
 ```
 run commands:
@@ -98,11 +99,11 @@ CREATE ROLE userReplace WITH PASSWORD='passwordReplace' AND LOGIN=true AND SUPER
 ```
 
 4. Add IPs in the security group on Aws 🔐
-<br>
-Add the Ec2 instance public IP in the security group of the EC2.<br>
-If you want to use your local, add your IP:<br>
-Protocol: TCP<br>
-Port: 9042<br>
-The installation is complete and Cassandra is ready to use 🚀<br>
+- Add the Ec2 instance public IP in the security group of the EC2
+- If you want to use your local, add your IP
+- Protocol: TCP
+- Port: 9042
 
-<img src="cassandra-logo.png" alt="Logo" width="400" height="450">
+### The installation is complete and Cassandra is ready to use 🚀
+<br>
+<img src="cassandra-logo.png" alt="Logo" width="700" height="450">
